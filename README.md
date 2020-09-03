@@ -24,3 +24,11 @@ jvm.
 
 
 * 返回值为double型的相似度。 
+
+*************
+
+Sim.jar
+
+java -jar Sim.jar -f xxx.fasta -l 2
+
+-l min_match_len
