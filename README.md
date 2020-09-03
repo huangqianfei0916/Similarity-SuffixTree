@@ -1,4 +1,6 @@
 # Similarity-SuffixTree
+************
+* HQFSuffixTree.jar
 
 * 这不是一个可执行程序，这个代码仅提供对两个字符串相似度的计算，得到的是一个相似度数值。
 
@@ -27,8 +29,8 @@ jvm.
 
 *************
 
-Sim.jar
+* Sim.jar:对HQFSuffixTree进行了封装可以处理fasta文件；
 
-java -jar Sim.jar -f xxx.fasta -l 2
+* java -jar Sim.jar -f xxx.fasta -l 2
 
--l min_match_len
+* -l min_match_len
